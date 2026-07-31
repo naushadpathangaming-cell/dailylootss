@@ -6,6 +6,11 @@ export default function Navbar() {
       <h1 className="text-3xl font-bold text-blue-600">
         DailyLootss
       </h1>
+      <input
+  type="text"
+  placeholder="Search products..."
+  className="px-4 py-2 border rounded-lg w-64 focus:outline-none focus:ring-2 focus:ring-blue-500"
+/>
 
       <div className="flex gap-6">
         <Link href="/">Home</Link>
