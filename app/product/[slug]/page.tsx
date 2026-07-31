@@ -38,6 +38,7 @@ export default async function ProductPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  const { addToCart } = useCart();
   const product = products[slug as keyof typeof products];
 
   if (!product) {
@@ -82,8 +83,11 @@ export default async function ProductPage({
     <li>✅ High Quality Files</li>
   </ul>
 </div>
-            <button className="mt-8 w-full bg-blue-600 text-white py-4 rounded-xl text-lg font-bold hover:bg-blue-700 transition duration-300">
-  Buy Now
+            <button
+  onClick={() => addToCart(product)}
+  className="mt-8 w-full bg-blue-600 text-white py-4 rounded-xl text-lg font-bold hover:bg-blue-700 transition duration-300"
+>
+  Add to Cart
 </button>
           </div>
 
