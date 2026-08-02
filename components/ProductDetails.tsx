@@ -9,7 +9,9 @@ type Product = {
   oldPrice: string;
   image: string;
   description: string;
+  features: string[];
 };
+
 export default function ProductDetails({
   product,
 }: {
@@ -20,7 +22,9 @@ export default function ProductDetails({
       <Navbar />
 
       <main className="max-w-6xl mx-auto py-12 px-6">
+
         <div className="grid md:grid-cols-2 gap-10">
+
           <Image
             src={product.image}
             alt={product.title}
@@ -29,56 +33,172 @@ export default function ProductDetails({
             className="w-full h-96 object-cover rounded-xl"
           />
 
+
           <div>
-            <h1 className="text-4xl font-bold">{product.title}</h1>
+
+            <h1 className="text-4xl font-bold">
+              {product.title}
+            </h1>
+
 
             <div className="mt-4">
-  <span className="text-gray-400 line-through text-2xl">
-    {product.oldPrice}
-  </span>
 
-  <span className="text-green-600 text-4xl font-bold ml-3">
-    {product.price}
-  </span>
+              <span className="text-gray-400 line-through text-2xl">
+                {product.oldPrice}
+              </span>
 
-  <p className="text-red-500 font-bold mt-2">
-    🔥 90% OFF - Limited Time Offer
-  </p>
-</div>
+              <span className="text-green-600 text-4xl font-bold ml-3">
+                {product.price}
+              </span>
+
+
+              <p className="text-red-500 font-bold mt-2">
+                🔥 90% OFF - Limited Time Offer
+              </p>
+
+            </div>
+
 
             <p className="mt-3 text-yellow-500 text-lg">
               ⭐⭐⭐⭐⭐ (4.9/5)
             </p>
 
+
             <p className="mt-6 text-gray-600 leading-7">
               {product.description}
             </p>
 
+
+
             <div className="mt-8">
+
               <h2 className="text-xl font-bold mb-4">
-                What's Included
+                🎯 WHAT YOU GET
               </h2>
 
+
               <ul className="space-y-2 text-gray-700">
-                <li>✅ Instant Download</li>
-                <li>✅ Lifetime Access</li>
-                <li>✅ Commercial Use</li>
-                <li>✅ Regular Updates</li>
-                <li>✅ High Quality Files</li>
-              </ul>
+  {product.features.map((item) => (
+    <li key={item}>✔ {item}</li>
+  ))}
+</ul>
+
             </div>
 
+
+
+            <div className="mt-8">
+
+              <h2 className="text-xl font-bold mb-4">
+                ⚡ WHY THIS WORKS
+              </h2>
+
+
+              <ul className="space-y-2 text-gray-700">
+
+                <li>✔ Hooks Audience Attention Quickly</li>
+
+                <li>✔ Helps Increase Watch Time</li>
+
+                <li>✔ Boosts Engagement</li>
+
+                <li>✔ Perfect For Daily Content Posting</li>
+
+              </ul>
+
+            </div>
+
+
+
+            <div className="mt-8">
+
+              <h2 className="text-xl font-bold mb-4">
+                🔥 PERFECT FOR
+              </h2>
+
+
+              <ul className="space-y-2 text-gray-700">
+
+                <li>✔ Faceless Pages</li>
+
+                <li>✔ Content Creators</li>
+
+                <li>✔ Social Media Growth</li>
+
+                <li>✔ Digital Product Sellers</li>
+
+                <li>✔ Affiliate Marketers</li>
+
+              </ul>
+
+            </div>
+
+
+
+            <div className="mt-8">
+
+              <h2 className="text-xl font-bold mb-4">
+                🔥 DONE-FOR-YOU SYSTEM
+              </h2>
+
+
+              <p className="text-gray-700 leading-7">
+
+                This is not just content.
+
+                <br />
+
+                👉 It is a ready-to-use AI content system
+                for daily posting and faster growth.
+
+              </p>
+
+            </div>
+
+
+
+            <div className="mt-8">
+
+              <h2 className="text-xl font-bold mb-4">
+                📦 What's Included
+              </h2>
+
+
+              <ul className="space-y-2 text-gray-700">
+
+                <li>✅ Instant Download</li>
+
+                <li>✅ Lifetime Access</li>
+
+                <li>✅ Commercial Use</li>
+
+                <li>✅ Regular Updates</li>
+
+                <li>✅ High Quality Files</li>
+
+              </ul>
+
+            </div>
+
+
+
             <button
-  onClick={() => {
-    window.location.href = "https://rzp.io/rzp/wuCrohS";
-  }}
-  className="mt-8 w-full bg-green-600 text-white py-4 rounded-xl text-lg font-bold hover:bg-green-700 transition"
->
-  Buy Now
-</button>
+              onClick={() => {
+                window.location.href =
+                "https://rzp.io/rzp/wuCrohS";
+              }}
+              className="mt-8 w-full bg-green-600 text-white py-4 rounded-xl text-lg font-bold hover:bg-green-700 transition"
+            >
+              Buy Now
+            </button>
+
+
           </div>
+
         </div>
+
       </main>
+
     </>
   );
 }
