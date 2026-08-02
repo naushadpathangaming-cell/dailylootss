@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Navbar from "./Navbar";
-import { useCart } from "./context/CartContext";
 
 type Product = {
   title: string;
@@ -16,8 +15,6 @@ export default function ProductDetails({
 }: {
   product: Product;
 }) {
-  const { addToCart } = useCart();
-
   return (
     <>
       <Navbar />
@@ -63,12 +60,11 @@ export default function ProductDetails({
 
             <button
               onClick={() => {
-  alert("Product Added!");
-  addToCart(product);
-}}
-              className="mt-8 w-full bg-blue-600 text-white py-4 rounded-xl text-lg font-bold hover:bg-blue-700 transition"
+                alert("Buy Now clicked!");
+              }}
+              className="mt-8 w-full bg-green-600 text-white py-4 rounded-xl text-lg font-bold hover:bg-green-700 transition"
             >
-              Add to Cart
+              Buy Now
             </button>
           </div>
         </div>

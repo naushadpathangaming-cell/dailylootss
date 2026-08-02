@@ -16,7 +16,7 @@ export default function Navbar() {
         <Link href="/">Home</Link>
         <Link href="/login">Login</Link>
         <Link href="/signup">Signup</Link>
-        <Link href="/cart">Cart 🛒</Link>
+      
       </div>
     </nav>
   );
