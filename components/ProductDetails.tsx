@@ -6,10 +6,10 @@ import Navbar from "./Navbar";
 type Product = {
   title: string;
   price: string;
+  oldPrice: string;
   image: string;
   description: string;
 };
-
 export default function ProductDetails({
   product,
 }: {
@@ -32,9 +32,19 @@ export default function ProductDetails({
           <div>
             <h1 className="text-4xl font-bold">{product.title}</h1>
 
-            <p className="text-3xl text-blue-600 font-bold mt-4">
-              {product.price}
-            </p>
+            <div className="mt-4">
+  <span className="text-gray-400 line-through text-2xl">
+    {product.oldPrice}
+  </span>
+
+  <span className="text-green-600 text-4xl font-bold ml-3">
+    {product.price}
+  </span>
+
+  <p className="text-red-500 font-bold mt-2">
+    🔥 90% OFF - Limited Time Offer
+  </p>
+</div>
 
             <p className="mt-3 text-yellow-500 text-lg">
               ⭐⭐⭐⭐⭐ (4.9/5)

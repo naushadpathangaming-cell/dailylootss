@@ -4,25 +4,29 @@ import Link from "next/link";
 const products = [
   {
     title: "AI Hulk Reels Bundle",
-    price: "₹299",
+    price: "₹99",
+    oldPrice: "₹999",
     image: "/products/product1.jpg",
     slug: "hulk",
   },
   {
     title: "Anime Reels Bundle",
-    price: "₹399",
+    price: "₹99",
+    oldPrice: "₹999",
     image: "/products/product2.jpg",
     slug: "anime",
   },
   {
     title: "Kids Cartoon Bundle",
-    price: "₹249",
+    price: "₹99",
+    oldPrice: "₹999",
     image: "/products/product3.jpg",
     slug: "kids",
   },
   {
     title: "Motivation Reels Bundle",
-    price: "₹199",
+    price: "₹99",
+    oldPrice: "₹999",
     image: "/products/product4.jpg",
     slug: "motivation",
   },
@@ -51,9 +55,19 @@ export default function Products() {
 
             <h3 className="text-xl font-semibold">{product.title}</h3>
 
-            <p className="text-blue-600 font-bold mt-2">
-              {product.price}
-            </p>
+            <div className="mt-2">
+  <span className="text-gray-400 line-through text-lg">
+    {product.oldPrice}
+  </span>
+
+  <span className="text-green-600 text-2xl font-bold ml-3">
+    {product.price}
+  </span>
+
+  <p className="text-red-500 font-semibold mt-2">
+    🔥 90% OFF - Limited Time
+  </p>
+</div>
 
            <Link
   href={`/product/${product.slug}`}
