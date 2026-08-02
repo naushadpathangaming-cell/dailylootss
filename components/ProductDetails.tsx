@@ -59,13 +59,13 @@ export default function ProductDetails({
             </div>
 
             <button
-              onClick={() => {
-                alert("Buy Now clicked!");
-              }}
-              className="mt-8 w-full bg-green-600 text-white py-4 rounded-xl text-lg font-bold hover:bg-green-700 transition"
-            >
-              Buy Now
-            </button>
+  onClick={() => {
+    window.location.href = "https://rzp.io/rzp/wuCrohS";
+  }}
+  className="mt-8 w-full bg-green-600 text-white py-4 rounded-xl text-lg font-bold hover:bg-green-700 transition"
+>
+  Buy Now
+</button>
           </div>
         </div>
       </main>
