@@ -60,10 +60,9 @@ export default function Products() {
     {product.oldPrice}
   </span>
 
-  <span className="text-green-600 text-2xl font-bold ml-3">
-    {product.price}
-  </span>
-
+  <span className="text-black text-4xl font-bold ml-3">
+  {product.price}
+</span>
   <p className="text-red-500 font-semibold mt-2">
     🔥 90% OFF - Limited Time
   </p>

@@ -187,7 +187,7 @@ export default function ProductDetails({
                 window.location.href =
                 "https://rzp.io/rzp/wuCrohS";
               }}
-              className="mt-8 w-full bg-green-600 text-white py-4 rounded-xl text-lg font-bold hover:bg-green-700 transition"
+              className="mt-8 w-full bg-indigo-600 text-white py-4 rounded-xl text-lg font-bold hover:bg-indigo-700 transition"
             >
               Buy Now
             </button>

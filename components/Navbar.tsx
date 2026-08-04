@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="flex justify-between items-center px-8 py-5 bg-white shadow">
 
       <Link href="/">
-        <h1 className="text-3xl font-bold text-blue-600 cursor-pointer">
+        <h1 className="text-3xl font-bold text-indigo-600 cursor-pointer">
           NEXORA AI STORE
         </h1>
       </Link>
