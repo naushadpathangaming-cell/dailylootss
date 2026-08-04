@@ -36,9 +36,9 @@ export default function ProductDetails({
 
           <div>
 
-            <h1 className="text-4xl font-bold">
-              {product.title}
-            </h1>
+            <h1 className="text-4xl font-bold text-black">
+  {product.title}
+</h1>
 
 
             <div className="mt-4">
@@ -47,9 +47,9 @@ export default function ProductDetails({
                 {product.oldPrice}
               </span>
 
-              <span className="text-green-600 text-4xl font-bold ml-3">
-                {product.price}
-              </span>
+              <span className="text-black text-4xl font-bold ml-3">
+  {product.price}
+</span>
 
 
               <p className="text-red-500 font-bold mt-2">

@@ -54,9 +54,9 @@ export default function Products() {
                 className="w-full h-52 object-cover rounded-lg"
               />
 
-              <h3 className="text-xl font-semibold mt-4">
-                {product.title}
-              </h3>
+              <h3 className="text-xl font-semibold text-black mt-4">
+  {product.title}
+</h3>
 
               <div className="mt-2">
                 <span className="text-gray-400 line-through text-lg">
