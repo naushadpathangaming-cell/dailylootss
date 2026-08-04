@@ -26,13 +26,12 @@ export default function WhyChoose() {
     <section className="bg-gray-50 py-20">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-gray-900">
-          Why Choose DailyLootss?
+         Why Choose NEXORA AI STORE?
         </h2>
 
         <p className="text-center text-gray-600 mt-4 max-w-2xl mx-auto">
-          Thousands of creators trust DailyLootss for premium digital products
-          at unbeatable prices.
-        </p>
+  Premium AI bundles, digital resources, and ready-to-use content designed to help creators grow faster.
+</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-14">
           {features.map((item) => (
