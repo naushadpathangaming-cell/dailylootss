@@ -26,12 +26,12 @@ export default function ProductDetails({
         <div className="grid md:grid-cols-2 gap-10">
 
           <Image
-            src={product.image}
-            alt={product.title}
-            width={600}
-            height={600}
-            className="w-full h-96 object-cover rounded-xl"
-          />
+  src={product.image}
+  alt={product.title}
+  width={500}
+  height={500}
+  className="w-72 h-72 md:w-80 md:h-80 object-contain rounded-2xl shadow-xl mx-auto hover:scale-105 transition duration-300"
+/>
 
 
           <div>
