@@ -74,8 +74,8 @@ const products = [
   },
   {
     title: "All In One AI Reels Bundle",
-    price: "₹99",
-    oldPrice: "₹799",
+    price: "₹299",
+    oldPrice: "₹2999",
     image: "/products/product11.jpeg",
     slug: "all-in-one",
   },
