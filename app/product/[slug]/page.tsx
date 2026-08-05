@@ -2,7 +2,7 @@ import ProductDetails from "../../../components/ProductDetails";
 
 const products = {
   hulk: {
-    title: "AI Hulk Reels Bundle",
+    title: "1000+ AI Hulk Reels Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product1.jpg",
@@ -21,7 +21,7 @@ const products = {
 
 
   anime: {
-    title: "Anime Reels Bundle",
+    title: "1000+ Ai Talking objects Reels Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product2.jpg",
@@ -40,7 +40,7 @@ const products = {
 
 
   kids: {
-    title: "Kids Cartoon Bundle",
+    title: "1000+ Kids Cartoon reels Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product3.jpg",
@@ -59,7 +59,7 @@ const products = {
 
 
   motivation: {
-    title: "Motivation Reels Bundle",
+    title: "500+ Ai Health Talking Reels Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product4.jpg",
@@ -77,7 +77,7 @@ const products = {
   },
 
   fruits: {
-    title: "AI Talking Fruits Bundle",
+    title: "5000+ Cartoon story video Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product5.jpg",
@@ -95,7 +95,7 @@ const products = {
   },
 
   animals: {
-    title: "AI Talking Animals Bundle",
+    title: "500+ AI Skeleton reels Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product6.jpg",
@@ -113,7 +113,7 @@ const products = {
   },
 
   chatgpt: {
-    title: "ChatGPT Prompt Bundle",
+    title: "1000+ Hindi Fact Reeels Bundle",
     price: "₹149",
     oldPrice: "₹999",
     image: "/products/product7.jpg",
@@ -131,7 +131,7 @@ const products = {
   },
 
   canva: {
-    title: "Canva Templates Bundle",
+    title: "1000+ Ai Cat Story Bundle",
     price: "₹99",
     oldPrice: "₹799",
     image: "/products/product8.jpg",
@@ -149,7 +149,7 @@ const products = {
   }
 ,
   shorts: {
-    title: "YouTube Shorts Bundle",
+    title: "15,000+ USA Luxury lifestyle reels Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product9.jpg",
@@ -167,7 +167,7 @@ const products = {
   },
 
   instagram: {
-    title: "Instagram Viral Bundle",
+    title: "500+ Ai Baby Dancing Reels Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product10.jpg",
@@ -185,7 +185,7 @@ const products = {
   },
 
   voice: {
-    title: "AI Voice Bundle",
+    title: "All In One Ai Reels Bundle",
     price: "₹99",
     oldPrice: "₹799",
     image: "/products/product11.jpeg",
@@ -203,7 +203,7 @@ const products = {
   },
 
   midjourney: {
-    title: "Midjourney Prompt Bundle",
+    title: "10000+ Bike Raider Reels Bundle",
     price: "₹149",
     oldPrice: "₹999",
     image: "/products/product12.jpg",
@@ -221,7 +221,7 @@ const products = {
   }
   ,
   business: {
-    title: "Business AI Toolkit",
+    title: "500+ Korean Girls Reels Bundle",
     price: "₹199",
     oldPrice: "₹1499",
     image: "/products/product13.jpg",
@@ -239,7 +239,7 @@ const products = {
   },
 
   faceless: {
-    title: "Faceless Creator Bundle",
+    title: "1000+ Doraemon Reels Bundle",
     price: "₹149",
     oldPrice: "₹999",
     image: "/products/product14.jpg",
@@ -257,7 +257,7 @@ const products = {
   },
 
   ultimate: {
-    title: "Ultimate AI Creator Bundle",
+    title: "1500+ Ai hot Model Reels Bundle",
     price: "₹299",
     oldPrice: "₹2999",
     image: "/products/product15.jpg",
