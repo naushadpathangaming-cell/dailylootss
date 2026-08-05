@@ -75,6 +75,204 @@ const products = {
       "Perfect For Faceless Pages",
     ],
   },
+
+  fruits: {
+    title: "AI Talking Fruits Bundle",
+    price: "₹99",
+    oldPrice: "₹999",
+    image: "/products/product5.jpg",
+
+    description:
+      "500+ AI talking fruits videos, funny animations and viral content ready for social media.",
+
+    features: [
+      "500+ AI Fruit Videos",
+      "Funny Talking Characters",
+      "Ready To Upload",
+      "High Quality Content",
+      "Lifetime Access",
+    ],
+  },
+
+  animals: {
+    title: "AI Talking Animals Bundle",
+    price: "₹99",
+    oldPrice: "₹999",
+    image: "/products/product6.jpg",
+
+    description:
+      "Cute AI talking animals bundle with ready-to-post viral videos and animations.",
+
+    features: [
+      "500+ Animal Videos",
+      "AI Generated Content",
+      "Instagram Ready",
+      "Commercial Use",
+      "Lifetime Access",
+    ],
+  },
+
+  chatgpt: {
+    title: "ChatGPT Prompt Bundle",
+    price: "₹149",
+    oldPrice: "₹999",
+    image: "/products/product7.jpg",
+
+    description:
+      "10000+ premium ChatGPT prompts for business, marketing, coding and content creation.",
+
+    features: [
+      "10000+ Prompts",
+      "Business Templates",
+      "Marketing Prompts",
+      "Coding Prompts",
+      "Lifetime Access",
+    ],
+  },
+
+  canva: {
+    title: "Canva Templates Bundle",
+    price: "₹99",
+    oldPrice: "₹799",
+    image: "/products/product8.jpg",
+
+    description:
+      "Premium Canva templates for Instagram, YouTube, Business and Social Media.",
+
+    features: [
+      "Editable Canva Files",
+      "Instagram Templates",
+      "YouTube Templates",
+      "Commercial License",
+      "Lifetime Access",
+    ],
+  }
+,
+  shorts: {
+    title: "YouTube Shorts Bundle",
+    price: "₹99",
+    oldPrice: "₹999",
+    image: "/products/product9.jpg",
+
+    description:
+      "500+ viral YouTube Shorts ideas, templates and ready-to-post content.",
+
+    features: [
+      "500+ Viral Shorts",
+      "Trending Hooks",
+      "Ready To Upload",
+      "High Engagement Content",
+      "Lifetime Access",
+    ],
+  },
+
+  instagram: {
+    title: "Instagram Viral Bundle",
+    price: "₹99",
+    oldPrice: "₹999",
+    image: "/products/product10.jpg",
+
+    description:
+      "Instagram growth bundle with viral reels, captions and content ideas.",
+
+    features: [
+      "Instagram Growth Pack",
+      "Ready Captions",
+      "Trending Content",
+      "High Quality Files",
+      "Lifetime Access",
+    ],
+  },
+
+  voice: {
+    title: "AI Voice Bundle",
+    price: "₹99",
+    oldPrice: "₹799",
+    image: "/products/product11.jpeg",
+
+    description:
+      "Premium AI voice resources, sound effects and voice generation assets.",
+
+    features: [
+      "AI Voice Resources",
+      "High Quality Audio",
+      "Commercial Use",
+      "Easy To Use",
+      "Lifetime Access",
+    ],
+  },
+
+  midjourney: {
+    title: "Midjourney Prompt Bundle",
+    price: "₹149",
+    oldPrice: "₹999",
+    image: "/products/product12.jpg",
+
+    description:
+      "Professional Midjourney prompts for realistic, cinematic and creative AI images.",
+
+    features: [
+      "5000+ Prompts",
+      "Cinematic Images",
+      "Realistic Art",
+      "Commercial License",
+      "Lifetime Access",
+    ],
+  }
+  ,
+  business: {
+    title: "Business AI Toolkit",
+    price: "₹199",
+    oldPrice: "₹1499",
+    image: "/products/product13.jpg",
+
+    description:
+      "Complete AI business toolkit with prompts, templates and automation resources.",
+
+    features: [
+      "Business Templates",
+      "AI Productivity Tools",
+      "Marketing Resources",
+      "Commercial Use",
+      "Lifetime Access",
+    ],
+  },
+
+  faceless: {
+    title: "Faceless Creator Bundle",
+    price: "₹149",
+    oldPrice: "₹999",
+    image: "/products/product14.jpg",
+
+    description:
+      "Everything you need to build and grow a faceless content creation business.",
+
+    features: [
+      "Faceless Content System",
+      "Viral Content Ideas",
+      "Ready To Upload",
+      "Creator Resources",
+      "Lifetime Access",
+    ],
+  },
+
+  ultimate: {
+    title: "Ultimate AI Creator Bundle",
+    price: "₹299",
+    oldPrice: "₹2999",
+    image: "/products/product15.jpg",
+
+    description:
+      "The complete premium bundle containing AI prompts, templates, creator tools and digital resources.",
+
+    features: [
+      "All Premium Resources",
+      "AI Prompts",
+      "Templates",
+      "Digital Assets",
+      "Lifetime Updates",
+    ],
+  }
 };
 
 
