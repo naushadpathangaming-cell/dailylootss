@@ -47,12 +47,12 @@ export default function Products() {
               className="bg-white rounded-2xl shadow-lg p-5 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
             >
               <Image
-                src={product.image}
-                alt={product.title}
-                width={400}
-                height={400}
-                className="w-full h-52 object-cover rounded-lg"
-              />
+  src={product.image}
+  alt={product.title}
+  width={350}
+  height={350}
+  className="w-44 h-44 mx-auto object-contain rounded-xl transition duration-300 hover:scale-105"
+/>
 
               <h3 className="text-xl font-semibold text-black mt-4">
   {product.title}
