@@ -43,20 +43,36 @@ export default function Products() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {products.map((product) => (
             <div
-              key={product.title}
-              className="bg-white rounded-2xl shadow-lg p-5 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300"
-            >
-              <Image
-  src={product.image}
-  alt={product.title}
-  width={350}
-  height={350}
-  className="w-44 h-44 mx-auto object-contain rounded-xl transition duration-300 hover:scale-105"
-/>
+  key={product.title}
+  className="bg-white rounded-2xl shadow-lg p-5 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 relative"
+>
+              <div className="relative">
+
+  <span className="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
+    🔥 BEST SELLER
+  </span>
+
+  <span className="absolute top-3 right-3 bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
+    90% OFF
+  </span>
+
+  <Image
+    src={product.image}
+    alt={product.title}
+    width={350}
+    height={350}
+    className="w-52 h-52 mx-auto object-contain rounded-xl transition duration-300 hover:scale-105"
+  />
+
+</div>
 
               <h3 className="text-xl font-semibold text-black mt-4">
   {product.title}
 </h3>
+<div className="flex items-center gap-2 mt-2">
+  <span className="text-yellow-500">⭐⭐⭐⭐⭐</span>
+  <span className="text-gray-500 text-sm">(4.9)</span>
+</div>
 
               <div className="mt-2">
                 <span className="text-gray-400 line-through text-lg">
@@ -66,6 +82,9 @@ export default function Products() {
                 <span className="text-black text-4xl font-bold ml-3">
                   {product.price}
                 </span>
+                <p className="text-green-600 font-medium mt-2">
+  ⚡ Instant Download
+</p>
 
                 <p className="text-red-500 font-semibold mt-2">
                   🔥 90% OFF - Limited Time
