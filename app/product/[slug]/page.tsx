@@ -6,10 +6,8 @@ const products = {
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product1.jpg",
-
     description:
       "1000+ AI Hulk Reels, prompts, thumbnails and editable files.",
-
     features: [
       "1000+ AI Hulk Viral Reels",
       "Ready To Post Videos",
@@ -19,260 +17,229 @@ const products = {
     ],
   },
 
-
-  anime: {
-    title: "1000+ Ai Talking objects Reels Bundle",
+  "ai-talking-objects": {
+    title: "1000+ AI Talking Objects Reels Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product2.jpg",
-
     description:
-      "500+ Anime reels, captions, hooks and templates for growing anime pages.",
-
+      "1000+ AI talking objects reels with viral content ready to post.",
     features: [
-      "500+ Viral Anime Reels",
-      "Trending Anime Templates",
-      "Ready Made Captions & Hooks",
-      "Perfect For Anime Pages",
-      "Commercial Use Allowed",
+      "1000+ AI Talking Videos",
+      "Ready To Upload",
+      "High Quality Content",
+      "Commercial Use",
+      "Lifetime Access",
     ],
   },
 
-
   kids: {
-    title: "1000+ Kids Cartoon reels Bundle",
+    title: "1000+ Kids Cartoon Reels Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product3.jpg",
-
     description:
-      "500+ high-quality kids cartoon reels, colorful templates, engaging captions, and ready-to-post content.",
-
+      "1000+ kids cartoon reels ready for Instagram and YouTube Shorts.",
     features: [
-      "500+ Kids Cartoon Videos",
-      "Colorful Animation Content",
-      "YouTube Kids & Shorts Ready",
-      "Easy Upload Content",
+      "Kids Cartoon Videos",
+      "Colorful Animation",
+      "YouTube Kids Ready",
+      "Easy Upload",
       "Lifetime Access",
     ],
   },
 
-
-  motivation: {
-    title: "500+ Ai Health Talking Reels Bundle",
+  "ai-health-talking": {
+    title: "500+ AI Health Talking Reels Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product4.jpg",
-
     description:
-      "500+ motivational reels, viral quotes, powerful captions, trending audio ideas, and ready-to-edit templates.",
-
+      "500+ AI health talking reels with engaging educational content.",
     features: [
-      "500+ Motivation Reels",
-      "Viral Quotes & Captions",
-      "Instagram Growth Content",
-      "Ready To Edit Templates",
-      "Perfect For Faceless Pages",
+      "Health AI Videos",
+      "Ready To Upload",
+      "High Quality",
+      "Commercial Use",
+      "Lifetime Access",
     ],
   },
 
-  fruits: {
-    title: "5000+ Cartoon story video Bundle",
+  "cartoon-story": {
+    title: "5000+ Cartoon Story Video Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product5.jpg",
-
     description:
-      "500+ AI talking fruits videos, funny animations and viral content ready for social media.",
-
+      "5000+ cartoon story videos for reels and shorts.",
     features: [
-      "500+ AI Fruit Videos",
-      "Funny Talking Characters",
+      "5000+ Story Videos",
+      "HD Quality",
       "Ready To Upload",
-      "High Quality Content",
+      "Commercial Use",
       "Lifetime Access",
     ],
   },
 
-  animals: {
-    title: "500+ AI Skeleton reels Bundle",
+  "ai-skeleton": {
+    title: "500+ AI Skeleton Reels Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product6.jpg",
-
     description:
-      "Cute AI talking animals bundle with ready-to-post viral videos and animations.",
-
+      "500+ AI skeleton themed viral reels bundle.",
     features: [
-      "500+ Animal Videos",
-      "AI Generated Content",
-      "Instagram Ready",
+      "500+ Skeleton Videos",
+      "Trending Content",
+      "HD Quality",
       "Commercial Use",
       "Lifetime Access",
     ],
   },
 
-  chatgpt: {
-    title: "1000+ Hindi Fact Reeels Bundle",
+  "hindi-fact": {
+    title: "1000+ Hindi Fact Reels Bundle",
     price: "₹149",
     oldPrice: "₹999",
     image: "/products/product7.jpg",
-
     description:
-      "10000+ premium ChatGPT prompts for business, marketing, coding and content creation.",
-
+      "1000+ Hindi fact reels for viral pages.",
     features: [
-      "10000+ Prompts",
-      "Business Templates",
-      "Marketing Prompts",
-      "Coding Prompts",
+      "Hindi Facts",
+      "Ready To Upload",
+      "Trending Content",
+      "HD Quality",
       "Lifetime Access",
     ],
   },
 
-  canva: {
-    title: "1000+ Ai Cat Story Bundle",
+  "ai-cat-story": {
+    title: "1000+ AI Cat Story Bundle",
     price: "₹99",
     oldPrice: "₹799",
     image: "/products/product8.jpg",
-
     description:
-      "Premium Canva templates for Instagram, YouTube, Business and Social Media.",
-
+      "Cute AI cat story videos ready for reels.",
     features: [
-      "Editable Canva Files",
-      "Instagram Templates",
-      "YouTube Templates",
-      "Commercial License",
+      "Cat Story Videos",
+      "HD Quality",
+      "Commercial Use",
+      "Ready To Upload",
       "Lifetime Access",
     ],
-  }
-,
-  shorts: {
-    title: "15,000+ USA Luxury lifestyle reels Bundle",
+  },
+
+    "usa-luxury-lifestyle": {
+    title: "15,000+ USA Luxury Lifestyle Reels Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product9.jpg",
-
     description:
-      "500+ viral YouTube Shorts ideas, templates and ready-to-post content.",
-
+      "15000+ premium USA luxury lifestyle reels for Instagram and Shorts.",
     features: [
-      "500+ Viral Shorts",
-      "Trending Hooks",
+      "15000+ Viral Reels",
+      "Luxury Lifestyle Content",
+      "HD Quality",
       "Ready To Upload",
-      "High Engagement Content",
       "Lifetime Access",
     ],
   },
 
-  instagram: {
-    title: "500+ Ai Baby Dancing Reels Bundle",
+  "ai-baby-dancing": {
+    title: "500+ AI Baby Dancing Reels Bundle",
     price: "₹99",
     oldPrice: "₹999",
     image: "/products/product10.jpg",
-
     description:
-      "Instagram growth bundle with viral reels, captions and content ideas.",
-
+      "Funny AI baby dancing reels ready to post.",
     features: [
-      "Instagram Growth Pack",
-      "Ready Captions",
+      "500+ Baby Dancing Videos",
       "Trending Content",
-      "High Quality Files",
+      "HD Quality",
+      "Commercial Use",
       "Lifetime Access",
     ],
   },
 
-  voice: {
-    title: "All In One Ai Reels Bundle",
+  "all-in-one": {
+    title: "All In One AI Reels Bundle",
     price: "₹99",
     oldPrice: "₹799",
     image: "/products/product11.jpeg",
-
     description:
-      "Premium AI voice resources, sound effects and voice generation assets.",
-
+      "Complete collection of premium AI reels in one bundle.",
     features: [
-      "AI Voice Resources",
-      "High Quality Audio",
+      "Multiple Categories",
+      "Ready To Upload",
+      "HD Quality",
       "Commercial Use",
-      "Easy To Use",
       "Lifetime Access",
     ],
   },
 
-  midjourney: {
-    title: "10000+ Bike Raider Reels Bundle",
+  "bike-rider": {
+    title: "10000+ Bike Rider Reels Bundle",
     price: "₹149",
     oldPrice: "₹999",
     image: "/products/product12.jpg",
-
     description:
-      "Professional Midjourney prompts for realistic, cinematic and creative AI images.",
-
+      "10000+ bike riding reels and viral edits.",
     features: [
-      "5000+ Prompts",
-      "Cinematic Images",
-      "Realistic Art",
-      "Commercial License",
+      "10000+ Bike Videos",
+      "Trending Reels",
+      "HD Quality",
+      "Commercial Use",
       "Lifetime Access",
     ],
-  }
-  ,
-  business: {
+  },
+
+  "korean-girls": {
     title: "500+ Korean Girls Reels Bundle",
     price: "₹199",
     oldPrice: "₹1499",
     image: "/products/product13.jpg",
-
     description:
-      "Complete AI business toolkit with prompts, templates and automation resources.",
-
+      "Premium Korean aesthetic reels collection.",
     features: [
-      "Business Templates",
-      "AI Productivity Tools",
-      "Marketing Resources",
+      "500+ Korean Videos",
+      "Trending Content",
+      "HD Quality",
       "Commercial Use",
       "Lifetime Access",
     ],
   },
 
-  faceless: {
+  "doraemon-reels": {
     title: "1000+ Doraemon Reels Bundle",
     price: "₹149",
     oldPrice: "₹999",
     image: "/products/product14.jpg",
-
     description:
-      "Everything you need to build and grow a faceless content creation business.",
-
+      "1000+ Doraemon reels for shorts and social media.",
     features: [
-      "Faceless Content System",
-      "Viral Content Ideas",
+      "1000+ Doraemon Videos",
+      "HD Quality",
       "Ready To Upload",
-      "Creator Resources",
+      "Commercial Use",
       "Lifetime Access",
     ],
   },
 
-  ultimate: {
-    title: "1500+ Ai hot Model Reels Bundle",
+  "ai-hot-model": {
+    title: "1500+ AI Hot Model Reels Bundle",
     price: "₹299",
     oldPrice: "₹2999",
     image: "/products/product15.jpg",
-
     description:
-      "The complete premium bundle containing AI prompts, templates, creator tools and digital resources.",
-
+      "Premium AI model reels with high-quality viral content.",
     features: [
-      "All Premium Resources",
-      "AI Prompts",
-      "Templates",
-      "Digital Assets",
+      "1500+ AI Model Videos",
+      "Premium Collection",
+      "Commercial Use",
+      "HD Quality",
       "Lifetime Updates",
     ],
-  }
+  },
 };
 
 
