@@ -184,8 +184,7 @@ export default function ProductDetails({
 
             <button
               onClick={() => {
-                window.location.href =
-                "https://rzp.io/rzp/wuCrohS";
+               window.location.href = "https://rzp.io/rzp/nexoraaistore";
               }}
               className="mt-8 w-full bg-indigo-600 text-white py-4 rounded-xl text-lg font-bold hover:bg-indigo-700 transition"
             >
