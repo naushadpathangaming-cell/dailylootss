@@ -21,12 +21,17 @@ export default function Hero() {
             Explore Products
           </Link>
 
-          <Link
-            href="/signup"
-            className="border-2 border-white px-8 py-3 rounded-xl font-bold hover:bg-white hover:text-blue-600"
-          >
-            Join Now
-          </Link>
+          ```tsx
+<a
+  href="https://t.me/earningtechofficial9"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="border-2 border-white px-8 py-3 rounded-xl font-bold hover:bg-white hover:text-blue-600"
+>
+  Join Now
+</a>
+```
+
         </div>
       </div>
     </section>
