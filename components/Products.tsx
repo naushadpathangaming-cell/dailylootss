@@ -152,28 +152,29 @@ export default function Products() {
 </div>
 
               <div className="mt-2">
-                <span className="text-gray-400 line-through text-lg">
-                  {product.oldPrice}
-                </span>
+  <span className="text-gray-400 line-through text-lg">
+    {product.oldPrice}
+  </span>
 
-                <span className="text-black text-4xl font-bold ml-3">
-                  {product.price}
-                </span>
-                <p className="text-green-600 font-medium mt-2">
+  <span className="text-black text-4xl font-bold ml-3">
+    {product.price}
+  </span>
+</div>
+
+<Link
+  href={`/product/${product.slug}`}
+  className="mt-4 block w-full text-center bg-blue-600 text-white py-3 rounded-xl font-semibold hover:bg-blue-700 transition"
+>
+  Buy Now
+</Link>
+
+<p className="text-green-600 font-medium mt-2">
   ⚡ Instant Download
 </p>
 
-                <p className="text-red-500 font-semibold mt-2">
-                  🔥 90% OFF - Limited Time
-                </p>
-              </div>
-
-              <Link
-                href={`/product/${product.slug}`}
-                className="mt-5 block w-full text-center bg-blue-600 text-white py-3 rounded-xl font-semibold hover:bg-blue-700 transition"
-              >
-                Buy Now
-              </Link>
+<p className="text-red-500 font-semibold mt-2">
+  🔥 90% OFF - Limited Time
+</p>
             </div>
           ))}
         </div>
