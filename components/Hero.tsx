@@ -29,7 +29,6 @@ export default function Hero() {
 >
   Join Now
 </a>
-```
 
         </div>
       </div>
