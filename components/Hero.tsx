@@ -21,7 +21,6 @@ export default function Hero() {
             Explore Products
           </Link>
 
-          ```tsx
 <a
   href="https://t.me/earningtechofficial9"
   target="_blank"
